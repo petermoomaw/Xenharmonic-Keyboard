@@ -1,0 +1,11 @@
+name 120-TET B
+enabled 1 0 1 1 1 1 1 1
+ratio 11:9 55:54 64:63 45927:45056 41553:40960 3:1 2:1 5:4
+period -10 -12 -9 -6 -3 0 1 0
+generator 65 76 57 38 19 10 0 2
+gen-cents 190
+per-cents 1200
+notes F C G D A E B
+accidentals /|\ |\ |) (| /| # 2
+tuningNote A 440
+rootNote C

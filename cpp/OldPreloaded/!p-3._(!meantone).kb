@@ -1,0 +1,13 @@
+name P-3. (Meantone)
+temperament !meantone.tpmt
+origin -0.0573995 0.0841734
+basis1 0.212866 251.609
+basis2 -100.544 -109.041
+keyShape RECTANGLE
+period -3 -7
+generator -2 -4
+duplicateKeys 1 0
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

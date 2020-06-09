@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="SDKTemplate.SettingsAbout"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SDKTemplate"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="305" Width="639.833">
+
+    <Grid Background="#222" BorderThickness="1" BorderBrush="DarkGray" Margin="0,0,-0.333,-33" >
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="302,50,97,0" TextWrapping="Wrap" Text="Xenharmonic Keyboard" VerticalAlignment="Top" FontWeight="Bold" FontSize="18.667" Width="241"/>
+        <TextBlock x:Name="Verson" HorizontalAlignment="Center" Text="Version 2.2" Margin="371,96,167,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="102"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Center" Margin="330,122,126,0" TextWrapping="Wrap" Text="© 2017 Peter Moomaw" VerticalAlignment="Top" Width="184"/>
+        <TextBlock x:Name="textBlock3" Margin="27,184,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="582">
+          <Span> The software uses the C++ library <Span FontStyle="Italic">Eigen</Span> to perform matrix operations. Eigen is avalable under the <Hyperlink  NavigateUri="https://www.mozilla.org/en-US/MPL/2.0/" Foreground="#FF6FC0FF">Mozilla Public License (Version 2.0)</Hyperlink> at <Hyperlink NavigateUri="http://eigen.tuxfamily.org" Foreground="#FF6FC0FF">http://eigen.tuxfamily.org</Hyperlink>.</Span>
+        </TextBlock>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="27,244,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="583">
+          <Span> The software uses the <Span FontStyle="Italic">Sagittal</Span> font for musical notation which is avalable under the <Hyperlink NavigateUri="http://scripts.sil.org/OFL" Foreground="#FF6FC0FF">SIL Open Font License</Hyperlink>. An explanation of the Sagittal notation as well as the fonts may be obtained at  <Hyperlink NavigateUri="http://sagittal.org" Foreground="#FF6FC0FF">http://sagittal.org</Hyperlink>.</Span>
+        </TextBlock>
+        <Image x:Name="image" Source="Assets//LogoInverted.png" HorizontalAlignment="Left" Height="168" Margin="125,27,0,0" VerticalAlignment="Top" Width="173"/>
+    </Grid>
+</Page>

@@ -1,0 +1,12 @@
+name P-1 *(Porcupine)
+temperament !porcupine.tpmt
+origin -0.53089 0.248151
+basis1 0.212866 251.609
+basis2 -95.25 -33.0096
+keyShape RECTANGLE
+period -1 -7
+generator 0 -1
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

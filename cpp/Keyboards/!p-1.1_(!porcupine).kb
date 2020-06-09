@@ -1,0 +1,13 @@
+name P-1.1 (Porcupine)
+temperament !porcupine.tpmt
+screenPosition -709.39 205.318
+basis1 0.212866 251.609
+basis2 -95.25 -33.0096
+keyShape RECTANGLE
+textSize 1
+period -1 -7
+generator 0 -1
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

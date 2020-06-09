@@ -1,0 +1,13 @@
+name P2... (Porcupine)
+temperament !porcupine.tpmt
+origin -0.452976 -0.484788
+basis1 0.212866 -251.609
+basis2 -97.7988 72.2842
+keyShape RECTANGLE
+period -2 -7
+generator -1 -1
+duplicateKeys -2 0
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

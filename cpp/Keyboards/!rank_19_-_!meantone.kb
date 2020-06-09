@@ -1,0 +1,12 @@
+name Rank 19 - Meantone
+temperament !meantone.tpmt
+screenPosition -1136.26 49.7519
+basis1 -0.354653 -192.874
+basis2 -58.0005 263.934
+keyShape RECTANGLE
+period -26 -19
+generator -15 -11
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

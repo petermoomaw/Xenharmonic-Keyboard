@@ -1,0 +1,13 @@
+name 12-TET Fourths
+temperament 12-!t!e!t_(!m2_!p5).tpmt
+screenPosition -403.38 206.34
+basis1 -0.0729783 109.947
+basis2 -100.018 0.0945751
+keyShape RECTANGLE
+textSize 0.9
+period -1 -2
+generator 0 -1
+textPos (-0.0490433, -0.01038) 
+verticies1 (0.5, -0.423742) 
+verticies2 (0.5, 0.423742) 
+verticies3 

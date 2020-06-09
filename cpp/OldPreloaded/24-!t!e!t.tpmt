@@ -1,0 +1,11 @@
+name 24-TET
+enabled 1 1 1 1 1
+ratio 1:1 2:1 5:4 3:2 32:33
+period 2 0 0 0 -1
+generator -1 12 4 7 0
+gen-cents 100
+per-cents 50
+notes F C G D A E B
+accidentals /|\ # 2
+tuningNote A 440
+rootNote C

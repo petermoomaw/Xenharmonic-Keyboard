@@ -1,0 +1,13 @@
+﻿<UserControl
+    x:Class="SDKTemplate.TemperamentEditRatio"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SDKTemplate"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="30" Width="62">
+
+    <StackPanel BorderThickness="1" BorderBrush="DarkGray">
+        <TextBox x:Name="textBox"  MinHeight="1"  MinWidth="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Text="" IsSpellCheckEnabled="False" TextAlignment="Right"  TextChanging="textBox_TextChanging" BorderThickness="0" Margin="0,0,0,0"/>
+    </StackPanel>
+</UserControl>

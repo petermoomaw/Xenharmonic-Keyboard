@@ -1,0 +1,12 @@
+name Terpstra
+origin 0 0
+basis1 86.5989 78.1606
+basis2 -110.989 35.9165
+keyShape VORONOI
+period 2 -5
+generator 1 -3
+textPos (0, 0) 
+verticies1 
+verticies2 
+verticies3 
+temperament !meantone.tpmt

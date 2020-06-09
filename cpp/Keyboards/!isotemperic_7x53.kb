@@ -1,0 +1,16 @@
+name Isotemperic 7x53
+temperament 53-!t!e!tx2.tpmt
+screenPosition -1627.47 -5579.86
+basis1 0.164417 67.5289
+basis2 -88.6651 -578.758
+keyShape RECTANGLE
+textSize 0.9
+showCents false
+showDelta false
+playUnamedNotes true
+period -1 0
+generator -2 -1
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

@@ -1,0 +1,15 @@
+name P-1.. (Schismatic B)
+temperament !schismatic.tpmt
+origin -0.523882 0.231258
+basis1 0.212866 -251.609
+basis2 -96.3583 -36.8202
+keyShape RECTANGLE
+zoom 1
+textSize 0.89
+period 1 -7
+generator 1 -4
+duplicateKeys 3 1
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

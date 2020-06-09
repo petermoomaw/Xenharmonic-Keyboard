@@ -1,0 +1,12 @@
+name Bohlen-Pierce
+origin 0 0
+basis1 -0.634867 -211.343
+basis2 -86.4195 -117.79
+keyShape RECTANGLE
+period 5 -9
+generator 4 -7
+textPos (0, 0) 
+verticies1 
+verticies2 
+verticies3 
+temperament !bohlen-!pierce.tpmt

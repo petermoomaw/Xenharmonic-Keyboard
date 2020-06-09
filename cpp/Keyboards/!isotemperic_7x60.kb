@@ -1,0 +1,16 @@
+name Isotemperic 7x60
+temperament 60-!t!e!tx2.tpmt
+screenPosition -1986.94 -7608.35
+basis1 0.166857 59.4596
+basis2 -89.0616 -569.161
+keyShape RECTANGLE
+textSize 0.9
+showCents false
+showDelta false
+playUnamedNotes true
+period -1 0
+generator -2 -1
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

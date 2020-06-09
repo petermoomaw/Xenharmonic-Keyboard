@@ -1,0 +1,14 @@
+name Tetracot
+temperament !tetracot_(!monkey).tpmt
+screenPosition -777.763 121.609
+basis1 -0.0613252 136.219
+basis2 -89.9795 -116.844
+keyShape RECTANGLE
+textSize 0.9
+playUnamedNotes true
+period -6 -7
+generator -1 -1
+textPos (-0.0490433, -0.01038) 
+verticies1 (0.5, -0.423742) 
+verticies2 (0.5, 0.423742) 
+verticies3 

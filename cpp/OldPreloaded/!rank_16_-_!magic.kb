@@ -1,0 +1,12 @@
+name Rank 16 - Magic
+temperament !magic.tpmt
+origin -0.785944 0.128246
+basis1 2.36525 -215.631
+basis2 -69.5901 175.191
+keyShape RECTANGLE
+period -13 -16
+generator -4 -5
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

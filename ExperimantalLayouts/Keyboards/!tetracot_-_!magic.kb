@@ -1,0 +1,15 @@
+name Tetracot - Magic
+temperament !magic.tpmt
+screenPosition -682.112 640.715
+basis1 0.0529534 133.801
+basis2 -88.4796 -114.695
+keyShape RECTANGLE
+textSize 0.9
+playUnamedNotes true
+period -6 -7
+generator -1 -2
+duplicateKeys -5 -1
+textPos (-0.0490433, -0.01038) 
+verticies1 (0.5, -0.423742) 
+verticies2 (0.5, 0.423742) 
+verticies3 

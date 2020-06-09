@@ -1,0 +1,14 @@
+name Rank 19 - Kleismic
+temperament !kleismic.tpmt
+screenPosition -1312.14 76.8807
+basis1 -0.661637 -155.928
+basis2 -68.3096 -123.123
+keyShape RECTANGLE
+textSize 0.9
+duplicateRatios false
+period 15 -19
+generator 4 -5
+textPos (-0.0373094, 0.00355757) 
+verticies1 (0.5, -0.100213) 
+verticies2 (0.5, 0.100213) 
+verticies3 

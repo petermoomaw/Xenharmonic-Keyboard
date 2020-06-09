@@ -1,0 +1,13 @@
+name Isotemperic (Fixed key size) 7x12 (Wilson)
+temperament 12-!t!e!tx2.tpmt
+screenPosition -825.463 -409.017
+basis1 0.165133 124.788
+basis2 -87.2848 -338.84
+keyShape RECTANGLE
+playUnamedNotes true
+period -1 0
+generator -2 -1
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

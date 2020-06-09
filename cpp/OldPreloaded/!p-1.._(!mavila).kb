@@ -1,0 +1,13 @@
+name P-1.. (Mavila)
+temperament !mavila.tpmt
+origin -0.493934 0.212318
+basis1 0.212866 -251.609
+basis2 -96.3583 -36.8202
+keyShape RECTANGLE
+period 1 -7
+generator 1 -4
+duplicateKeys -1 0
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

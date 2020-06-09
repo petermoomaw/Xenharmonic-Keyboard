@@ -1,0 +1,12 @@
+name Fokker
+temperament !meantone_(31-!t!e!t).tpmt
+screenPosition -875.147 195.695
+basis1 -0.0991824 -179.396
+basis2 -69.2414 89.5152
+keyShape RECTANGLE
+period -5 -12
+generator -3 -7
+textPos (0, 0) 
+verticies1 
+verticies2 
+verticies3 

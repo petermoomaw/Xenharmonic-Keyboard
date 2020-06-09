@@ -1,0 +1,11 @@
+name 36-TET
+enabled 1 1 1 1 1 1
+ratio 1:1 2:1 3:2 5:4 7:4 11:10
+period -3 0 0 0 -1 -1
+generator 1 12 7 4 10 2
+gen-cents 100
+per-cents 33.333
+notes F C G D A E B
+accidentals |) # 2
+tuningNote A 440
+rootNote C

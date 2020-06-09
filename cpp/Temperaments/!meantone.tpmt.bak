@@ -1,0 +1,12 @@
+name Meantone
+enabled 1 1 1 1
+ratio 2:1 3:1 5:1 7:1
+period 1 1 0 -3
+generator 0 1 4 10
+gen-cents 696.495
+per-cents 1200
+freq 261.626
+name-ratio 3:1
+name-commas 81:80 2:1
+notes F C G D A E B
+anchor C

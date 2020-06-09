@@ -1,0 +1,12 @@
+name Harmonic Table (12-TET)
+enabled 1 1 1 1 1
+ratio 2:1 2:1 6:5 5:4 7:5
+period 0 3 0 1 0
+generator 4 0 1 0 2
+gen-cents 300
+per-cents 400
+freq 261.626
+name-ratio 3:1
+name-commas 81:80 2:1
+notes F C G D A E B
+anchor C

@@ -1,0 +1,782 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>80bfd669-aa83-4537-9611-027cffe0d8af</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Styles">
+      <UniqueIdentifier>{c6978fb6-bc64-498d-97c8-f5b53997e54e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{cb6f9696-e0e6-4ee5-9df4-db83a686a737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D2DRenderer">
+      <UniqueIdentifier>{1afa1d4e-25e9-4319-acd3-9eb3df394c44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enharmonic">
+      <UniqueIdentifier>{a28c3e52-dcad-40b0-acfa-99dea7301931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIDI">
+      <UniqueIdentifier>{998ca19e-71f3-4693-bc8d-3d90c103e2c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Temperaments">
+      <UniqueIdentifier>{edaf474c-093d-453c-adde-124260b1b8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Keyboards">
+      <UniqueIdentifier>{635b6151-d6c8-49be-948f-58ce4d62e3a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icons">
+      <UniqueIdentifier>{3fef381a-fdb9-4949-bfe8-ccfe14f32b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fonts">
+      <UniqueIdentifier>{01139388-ba80-4484-9b2e-3b86e2c8faea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OldPreloaded">
+      <UniqueIdentifier>{9fa94112-9fed-4db0-97d6-3f59fd90e54b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Enharmonic\Lattice.cpp">
+      <Filter>Enharmonic</Filter>
+    </ClCompile>
+    <ClCompile Include="Enharmonic\Val.cpp">
+      <Filter>Enharmonic</Filter>
+    </ClCompile>
+    <ClCompile Include="Enharmonic\Temperament.cpp">
+      <Filter>Enharmonic</Filter>
+    </ClCompile>
+    <ClCompile Include="Enharmonic\Common.cpp">
+      <Filter>Enharmonic</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsPopup.xaml.cpp" />
+    <ClCompile Include="EditCombo.xaml.cpp" />
+    <ClCompile Include="SettingsExpression.xaml.cpp" />
+    <ClCompile Include="SettingsInstrument.xaml.cpp" />
+    <ClCompile Include="SettingsKeyboard.xaml.cpp" />
+    <ClCompile Include="SettingsTemperament.xaml.cpp" />
+    <ClCompile Include="SettingsTouchScreen.xaml.cpp" />
+    <ClCompile Include="EditFloat.xaml.cpp" />
+    <ClCompile Include="TemperamentEditInteger.xaml.cpp" />
+    <ClCompile Include="TemperamentDataItem.xaml.cpp" />
+    <ClCompile Include="TemperamentEditRatio.xaml.cpp" />
+    <ClCompile Include="Enharmonic\Instrument.cpp">
+      <Filter>Enharmonic</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DirectXBase.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Enharmonic\LatticeView.cpp">
+      <Filter>Enharmonic</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsTab.cpp" />
+    <ClCompile Include="MIDI\MidiDeviceWatcher.cpp">
+      <Filter>MIDI</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsAbout.xaml.cpp" />
+    <ClCompile Include="Enharmonic\Ratio.cpp">
+      <Filter>Enharmonic</Filter>
+    </ClCompile>
+    <ClCompile Include="TemperamentEditRatioList.xaml.cpp" />
+    <ClCompile Include="SettingPerfectPitch.xaml.cpp" />
+    <ClCompile Include="Fonts\FontLoader.cpp">
+      <Filter>Fonts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="DirectX\DirectXHelper.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Enharmonic\Lattice.h">
+      <Filter>Enharmonic</Filter>
+    </ClInclude>
+    <ClInclude Include="Enharmonic\Val.h">
+      <Filter>Enharmonic</Filter>
+    </ClInclude>
+    <ClInclude Include="Enharmonic\Temperament.h">
+      <Filter>Enharmonic</Filter>
+    </ClInclude>
+    <ClInclude Include="Enharmonic\Common.h">
+      <Filter>Enharmonic</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsPopup.xaml.h" />
+    <ClInclude Include="EditCombo.xaml.h" />
+    <ClInclude Include="SettingsExpression.xaml.h" />
+    <ClInclude Include="SettingsInstrument.xaml.h" />
+    <ClInclude Include="SettingsKeyboard.xaml.h" />
+    <ClInclude Include="SettingsTemperament.xaml.h" />
+    <ClInclude Include="SettingsTouchScreen.xaml.h" />
+    <ClInclude Include="EditFloat.xaml.h" />
+    <ClInclude Include="TemperamentEditInteger.xaml.h" />
+    <ClInclude Include="TemperamentDataItem.xaml.h" />
+    <ClInclude Include="TemperamentEditRatio.xaml.h" />
+    <ClInclude Include="Enharmonic\instrument.h">
+      <Filter>Enharmonic</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DirectXBase.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Enharmonic\LatticeView.h">
+      <Filter>Enharmonic</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsTab.h" />
+    <ClInclude Include="MIDI\MidiDeviceWatcher.h">
+      <Filter>MIDI</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsAbout.xaml.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Enharmonic\Ratio.h">
+      <Filter>Enharmonic</Filter>
+    </ClInclude>
+    <ClInclude Include="TemperamentEditRatioList.xaml.h" />
+    <ClInclude Include="SettingPerfectPitch.xaml.h" />
+    <ClInclude Include="Fonts\FontLoader.h">
+      <Filter>Fonts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Styles\Styles.xaml">
+      <Filter>Styles</Filter>
+    </Page>
+    <Page Include="MainPage.xaml" />
+    <Page Include="SettingsPopup.xaml" />
+    <Page Include="SettingsTemperament.xaml" />
+    <Page Include="EditCombo.xaml" />
+    <Page Include="SettingsKeyboard.xaml" />
+    <Page Include="SettingsInstrument.xaml" />
+    <Page Include="SettingsTouchScreen.xaml" />
+    <Page Include="SettingsExpression.xaml" />
+    <Page Include="EditFloat.xaml" />
+    <Page Include="TemperamentDataItem.xaml" />
+    <Page Include="TemperamentEditInteger.xaml" />
+    <Page Include="TemperamentEditRatio.xaml" />
+    <Page Include="SettingsAbout.xaml" />
+    <Page Include="TemperamentEditRatioList.xaml" />
+    <Page Include="SettingPerfectPitch.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icons\Settings-52.png">
+      <Filter>Icons</Filter>
+    </Image>
+    <Image Include="Icons\Straigten.png">
+      <Filter>Icons</Filter>
+    </Image>
+    <Image Include="Icons\Align.png">
+      <Filter>Icons</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44.targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44.targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44.targetsize-24.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44.targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\squareTile-sdk.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\squareTile-sdk.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\squareTile-sdk.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\squareTile-sdk.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\squareTile-sdk.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LogoInverted.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Icons\drag.png">
+      <Filter>Icons</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Enharmonic.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Keyboards\!fokker.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!hanson_!a.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!hanson_!a_-_!rectangle.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!hanson_!b.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!hanson_!b_-_!rectangle.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!harmonic_!table.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!janko.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Temperaments\!kleismic.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!kleismic_(19-!t!e!t).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!kleismic_(72-!t!e!t).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!magic.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!magic_(19-!t!e!t).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!magic_(22-!t!e!t).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!magic_(60-!t!e!t).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!mavila.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!meantone.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!meantone_(!grosstone).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!meantone_(!tridecimal).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!meantone_(12-!t!e!t).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!meantone_(19-!t!e!t).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!meantone_(31-!t!e!t).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!porcupine.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!porcupine_(22-!t!e!t).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!schismatic.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!schismatic_(!garbaldi).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!schismatic_(!garbaldi_13_limit).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\12-!t!e!t_&amp;_!just_!m3.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\22-!t!e!t.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\24-!t!e!t.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\36-!t!e!t.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\72-!t!e!t.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\144-!t!e!t.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Keyboards\24-!t!e!t.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\36-!t!e!t.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\72-!t!e!t.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\144-!t!e!t.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!rank_3_-_!magic.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!rank_16_-_!magic.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!rank_19_-_!kleismic.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!rank_19_-_!magic.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!rank_19_-_!meantone.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!wicki-!hayden.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!wilson.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Temperaments\!harmonic_!table_(12-!t!e!t).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\24-!t!e!t_(neutral_third_generator).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!bosanquet.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!fokker.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!hanson_!a.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!hanson_!a_-_!rectangle.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!hanson_!b.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!hanson_!b_-_!rectangle.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!harmonic_!table.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!harmonic_!table_(12-!t!e!t).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!janko.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!kleismic.tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!kleismic_(19-!t!e!t).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!kleismic_(72-!t!e!t).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!magic.tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!magic_(19-!t!e!t).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!magic_(22-!t!e!t).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!magic_(60-!t!e!t).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!mavila.tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!meantone.tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!meantone_(!grosstone).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!meantone_(!tridecimal).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!meantone_(12-!t!e!t).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!meantone_(19-!t!e!t).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!meantone_(31-!t!e!t).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p-1...._(!kleismic).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p-1...._(!magic).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p-1.._(!mavila).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p-1.._(!meantone).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p-1.._(!schismatic_!a).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p-1.._(!schismatic_!b).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p-1.._(!superpyth_!a).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p-1.._(!superpyth_!b).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p-1_(!porcupine).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p2..._(!kleismic_!a).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p2..._(!magic).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p2..._(!porcupine).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p2.._(!kleismic_!b).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p2_(!mavila).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p2_(!meantone).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p2_(!porcupine).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p-3._(!mavila).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p-3._(!meantone).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p-3._(!schismatic).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p-3._(!superpyth_22-!t!e!t).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!p-3_(24-!t!e!t).kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!porcupine.tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!porcupine_(22-!t!e!t).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!porcupine_(60-!t!e!t).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!rank_3_-_!magic.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!rank_16_-_!magic.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!rank_19_-_!kleismic.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!rank_19_-_!magic.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!rank_19_-_!meantone.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!schismatic.tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!schismatic_(!garbaldi).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!schismatic_(!garbaldi_13_limit).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!shape_!l.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!shape_+.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!terpstra.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!wicki-!hayden.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\!wilson.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\12-!t!e!t_&amp;_!just_!m3.tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\22-!t!e!t.tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\24-!t!e!t.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\24-!t!e!t.tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\24-!t!e!t_(neutral_third_generator).tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\36-!t!e!t.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\36-!t!e!t.tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\72-!t!e!t.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\72-!t!e!t.tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\144-!t!e!t.kb">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="OldPreloaded\144-!t!e!t.tpmt">
+      <Filter>OldPreloaded</Filter>
+    </Text>
+    <Text Include="Keyboards\!chromatic_!button_!accordion_(!system_!b).kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!chromatic_!button_!accordion_(!system_!c).kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!bosanquet_(!schismatic).kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!bosanquet_(31-!t!e!t).kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!wicki-!hayden_!rotated.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Temperaments\12-!t!e!t_(!m2_!p5).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Keyboards\12-!t!e!t_!fourths.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\12-!t!e!t_!fifths.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Temperaments\!porcupine_(15-!t!e!t).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Keyboards\72_!hex_!a.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\72_!hex_!b.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!isotemperic_7x12_(!wilson).kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!isotemperic_7x15.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!isotemperic_7x19.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!isotemperic_7x22.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!isotemperic_7x24.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!isotemperic_7x31.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!isotemperic_7x34.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!isotemperic_7x36.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!isotemperic_7x41.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!isotemperic_7x53.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!isotemperic_7x60.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!isotemperic_7x72.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Temperaments\!miracle_(31-!t!e!t).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!miracle_(41-!t!e!t).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!miracle_(72-!t!e!t).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!tetracot.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!tetracot_(!bunya).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\!tetracot_(!monkey).tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\12-!t!e!tx2.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\15-!t!e!tx2.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\17-!t!e!tx2.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\19-!t!e!tx2.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\22-!t!e!tx2.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\24-!t!e!tx2.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\31-!t!e!tx2.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\34-!t!e!tx2.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\36-!t!e!tx2.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\41-!t!e!tx2.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\53-!t!e!tx2.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\60-!t!e!tx2.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\72-!t!e!tx2.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Temperaments\144-!t!e!tx2.tpmt">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Keyboards\!secor_!decimal_!keyboard_-_31_!t!e!t.kb">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Keyboards\!secor_!decimal_!keyboard_-_41_!t!e!t.kb">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Keyboards\!secor_!decimal_!keyboard_-_72_!t!e!t.kb">
+      <Filter>Temperaments</Filter>
+    </Text>
+    <Text Include="Keyboards\!isotemperic_12x144.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+    <Text Include="Keyboards\!isotemperic_7x17.kb">
+      <Filter>Keyboards</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Fonts\Sagittal2.ttf">
+      <Filter>Fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package.StoreAssociation.xml" />
+    <None Include="Enharmonic_TemporaryKey.pfx" />
+    <None Include="Enharmonic_StoreKey.pfx" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+name Porcupine
+enabled 1 1 1 0 1
+ratio 2:1 6:5 4:3 7:6 14:11
+period 1 0 0 -1 -1
+generator 0 2 3 9 10
+gen-cents 162.75
+per-cents 1200
+notes F C G D A E B
+accidentals /| # 2
+tuningNote A 440
+rootNote C

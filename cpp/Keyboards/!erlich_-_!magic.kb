@@ -1,0 +1,13 @@
+name Erlich - Magic
+temperament !magic.tpmt
+screenPosition -638.915 96.8054
+basis1 28.6362 68.8005
+basis2 -130.95 98.5493
+keyShape VORONOI
+textSize 0.738
+period 4 -3
+generator 1 -1
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

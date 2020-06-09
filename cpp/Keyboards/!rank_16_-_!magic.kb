@@ -1,0 +1,12 @@
+name Rank 16 - Magic
+temperament !magic.tpmt
+screenPosition -1046.37 136.479
+basis1 1.1885 -218.448
+basis2 -68.9084 176.687
+keyShape RECTANGLE
+period -13 -16
+generator -4 -5
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

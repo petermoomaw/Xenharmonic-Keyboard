@@ -1,0 +1,12 @@
+name Harmonic Table
+temperament !harmonic_!table_(12-!t!e!t).tpmt
+origin 0.19987 0.14394
+basis1 0.0288721 113.001
+basis2 -97.8761 -56.4755
+keyShape VORONOI
+period -1 -1
+generator 0 1
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

@@ -1,0 +1,11 @@
+name 41-TETx2
+enabled 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ratio 2:1 2:1 15:14 15:14 16:15 16:15 11:9 11:9 17:13 17:13 3:2 3:2 17:12 17:12
+period 41 0 4 0 4 0 12 0 16 0 24 0 21 0
+generator 0 41 0 4 0 4 0 12 0 16 0 24 0 21
+gen-cents 29.268
+per-cents 29.268
+notes F C G D A E B
+accidentals /|\ |) /| # 2
+tuningNote A 440
+rootNote C

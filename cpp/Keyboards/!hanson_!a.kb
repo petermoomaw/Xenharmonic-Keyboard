@@ -1,0 +1,12 @@
+name Hanson A
+temperament !kleismic.tpmt
+screenPosition -715.407 290.828
+basis1 -55.8478 115.587
+basis2 -111.216 -86.4592
+keyShape CUSTOM
+period -3 -4
+generator -1 -1
+textPos (0.316948, -0.307265) 
+verticies1 (0.87767, -0.439505) 
+verticies2 (0.523277, 0.295344) 
+verticies3 (0.392179, 0.217287) (0.275066, 0.190348) (0.168426, 0.205748) (0.0752993, 0.265862) (0.0114761, 0.339243) (-0.048969, 0.423802) 

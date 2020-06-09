@@ -1,0 +1,12 @@
+name Chromatic Button Accordion (System B)
+temperament !harmonic_!table_(12-!t!e!t).tpmt
+screenPosition -510.148 -84.1983
+basis1 -56.343 -97.9525
+basis2 -113.001 -0.181842
+keyShape VORONOI
+period -1 -1
+generator 0 -1
+textPos (0, 0) 
+verticies1 (0.5, -0.25) 
+verticies2 (0.5, 0.25) 
+verticies3 

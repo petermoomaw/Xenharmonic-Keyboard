@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="SDKTemplate.SettingsTouchScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SDKTemplate"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="158.8" Width="525.4">
+
+    <!-- <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" > -->
+    <Grid Background="#222" BorderThickness="1" BorderBrush="DarkGray" Margin="0,0,-0.4,-0.4" >
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="62,20,0,0" TextWrapping="Wrap" Text="Touch Diameter" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="13,64,0,0" TextWrapping="Wrap" Text="Touch Linger Time (ms)" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="58,97,0,0" TextWrapping="Wrap" Text="Maximum Touch" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="66,118,0,0" TextWrapping="Wrap" Text="Drag Time (ms)" VerticalAlignment="Top"/>
+        <Slider x:Name="diameter" HorizontalAlignment="Left" Margin="173,15,0,0" VerticalAlignment="Top" Width="333" TickFrequency="10" TickPlacement="Outside" ValueChanged="diameter_ValueChanged"/>
+        <Slider x:Name="linger" HorizontalAlignment="Left" Margin="173,57,0,0" VerticalAlignment="Top" Width="333" TickFrequency="10" TickPlacement="Outside" ValueChanged="linger_ValueChanged" Maximum="200"/>
+        <Slider x:Name="speed" HorizontalAlignment="Left" Margin="173,100,0,0" VerticalAlignment="Top" Width="333" TickFrequency="10" TickPlacement="Outside" ValueChanged="speed_ValueChanged"/>
+
+    </Grid>
+</Page>

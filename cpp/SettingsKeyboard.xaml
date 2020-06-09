@@ -1,0 +1,82 @@
+﻿<Page
+    x:Class="SDKTemplate.SettingsKeyboard"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SDKTemplate"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!-- <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" > -->
+    <StackPanel Orientation="Vertical">
+        <Grid x:Name="mainGrid" Background="#222" BorderThickness="1" BorderBrush="DarkGray" Height="161" Margin="0,0,941,0" >
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="8,21,0,0" TextWrapping="Wrap" Text="Keyboard" VerticalAlignment="Top"/>
+            <ComboBox x:Name="name" HorizontalAlignment="Left" Margin="81,16,0,0" VerticalAlignment="Top" Width="464" SelectionChanged="name_SelectionChanged"/>
+            <ToggleButton x:Name="Edit" Content="Edit Keyboard" HorizontalAlignment="Left" Margin="404,115,0,0" VerticalAlignment="Top" Checked="Edit_Checked" Unchecked="Edit_Unchecked" Width="142"/>
+            <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="11,67,0,0" TextWrapping="Wrap" Text="Zoom" VerticalAlignment="Top" Height="21"/>
+            <Slider x:Name="scale" HorizontalAlignment="Left" Margin="64,68,0,0" VerticalAlignment="Top" Width="318"   TickFrequency="0.1" TickPlacement="Outside" Minimum=".2" Maximum="2.0" SmallChange="0.01" LargeChange="0.01" StepFrequency="0.01" ValueChanged="scale_ValueChanged" Height="46"/>
+            <ToggleButton x:Name="drag" Content="Drag Keyboard" HorizontalAlignment="Left" Margin="405,71,0,0" VerticalAlignment="Top" Checked="drag_Checked" Unchecked="drag_Unchecked" Width="140"/>
+            <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="10,117,0,0" TextWrapping="Wrap" Text="After Touch" VerticalAlignment="Top"/>
+            <ComboBox x:Name="afterTouch" HorizontalAlignment="Left" Margin="94,113,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="afterTouch_SelectionChanged">
+                <ComboBoxItem Tag="S" IsSelected="True" Content="Sustain"/>
+                <ComboBoxItem Tag="G" Content="Vibrato"/>
+                <ComboBoxItem Tag="G" Content="Bend"/>
+                <ComboBoxItem Tag="C" Content="Glissando"/>
+            </ComboBox>
+            <ToggleButton x:Name="Options" Content="After Touch Options" HorizontalAlignment="Left" Margin="235,113,0,0" VerticalAlignment="Top" Checked="Options_Checked" Unchecked="Options_Unchecked"/>
+        </Grid>
+        <Canvas>
+            <Grid x:Name="keyboardEditPopup" Background="#222" BorderThickness="1" BorderBrush="DarkGray" Height="401" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top">
+                <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="17,149,0,0" TextWrapping="Wrap" Text="Key Shape" VerticalAlignment="Top" Height="21"/>
+                <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="380,55,0,0" TextWrapping="Wrap" Text="Two Touch Edit Mode" VerticalAlignment="Top" Height="21"/>
+                <ToggleSwitch x:Name="twoTouchToggle" Header="Two Point Edit" HorizontalAlignment="Left" Margin="260,59,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Left" Width="99" Toggled="twoTouchToggle_Toggled" Height="62"/>
+                <ComboBox x:Name="keyShape" HorizontalAlignment="Left" Margin="90,144,0,0" VerticalAlignment="Top" Width="157" SelectionChanged="KeyShape_SelectionChanged" Height="34">
+                    <ComboBoxItem Tag="V" IsSelected="True" Content="Voronoi Cell"/>
+                    <ComboBoxItem Tag="R" Content="Rectangle"/>
+                    <ComboBoxItem Tag="C" Content="Custom"/>
+                </ComboBox>
+                <ToggleSwitch x:Name="threeTouchToggle" Header="Three Point Edit" HorizontalAlignment="Left" Margin="138,59,0,0" VerticalAlignment="Top" Toggled="threeTouchToggle_Toggled" Height="64"/>
+                <ComboBox x:Name="twoTouchMode" HorizontalAlignment="Left" Margin="363,85,0,0" VerticalAlignment="Top" Width="173" SelectionChanged="twoTouchMode_SelectionChanged" Height="33">
+                    <ComboBoxItem Tag="Resize" IsSelected="True" Content="Resize"/>
+                    <ComboBoxItem Tag="Rotate" Content="Rotate" />
+                    <ComboBoxItem Tag="RotateResize" Content="Rotate and Resize" />
+                    <ComboBoxItem Tag="Squeeze" Content="Squeeze" />
+                    <ComboBoxItem Tag="Squeeze" Content="Shear" />
+                </ComboBox>
+                <Button x:Name="flipHorizontal" Content="↔" HorizontalAlignment="Left" Margin="277,146,0,0" VerticalAlignment="Top" Click="flipHorizontal_Click" FontFamily="Segoe UI Black" IsTextScaleFactorEnabled="False" BorderThickness="0" FontSize="18.667" Height="32" Width="31"/>
+                <Button x:Name="flipVertical" Content="↕" HorizontalAlignment="Left" Margin="317,146,0,0" VerticalAlignment="Top" Click="flipVertical_Click" FontFamily="Segoe UI Black" BorderThickness="0" FontSize="18.667" Height="32" Width="31"/>
+                <Button x:Name="rotate90" Content="↺" HorizontalAlignment="Left" Margin="357,146,0,0" VerticalAlignment="Top" Click="rotate90_Click" Width="31" FontFamily="Segoe UI Black" FontSize="18.667" Height="32" BorderThickness="0"/>
+                <Button x:Name="resetShape" Content="Reset shape" HorizontalAlignment="Left" Margin="414,141,0,0" VerticalAlignment="Top" Height="42" Width="105" Click="resetShape_Click"/>
+                <CheckBox x:Name="duplicateKeys" Content="Duplicate keys" HorizontalAlignment="Left" Margin="163,254,0,0" VerticalAlignment="Top" Checked="duplicateKeys_Toggled" Unchecked="duplicateKeys_Toggled" Height="33"/>
+                <CheckBox x:Name="showName" Content="Show Name" HorizontalAlignment="Left" Margin="304,254,0,0" VerticalAlignment="Top" Checked="showName_Checked" Unchecked="showName_Unchecked" Height="33"/>
+                <CheckBox x:Name="scientificPitchNotation" Content="Scientific pitch notation" HorizontalAlignment="Left" Margin="162,325,0,0" VerticalAlignment="Top" Unchecked="scientificPitchNotation_Unchecked" Checked="scientificPitchNotation_Checked"/>
+                <CheckBox x:Name="use53TETNotation" Content="53 edo notaion" HorizontalAlignment="Left" Margin="387,327,0,0" VerticalAlignment="Top" Unchecked="use53TETNotation_Unchecked" Checked="use53TETNotation_Checked"/>
+                <CheckBox x:Name="showRatio" Content="Show Ratio" HorizontalAlignment="Left" Margin="423,253,0,0" VerticalAlignment="Top" Checked="showRatio_Checked" Unchecked="showRatio_Unchecked" Height="34"/>
+                <CheckBox x:Name="showDelta" Content="Show Delta" HorizontalAlignment="Left" Margin="423,295,0,0" VerticalAlignment="Top" Checked="showDelta_Checked" Unchecked="showDelta_Unchecked" Height="33"/>
+                <CheckBox x:Name="showCents" Content="Show Cents" HorizontalAlignment="Left" Margin="304,292,0,0" VerticalAlignment="Top" Checked="showCents_Checked" Unchecked="showCents_Unchecked" Height="34"/>
+                <CheckBox x:Name="duplicateRatios" Content="Duplicate Ratios" HorizontalAlignment="Left" Margin="162,290,0,0" VerticalAlignment="Top" Checked="duplicateRatios_Toggled" Unchecked="duplicateRatios_Toggled" Height="34"/>
+                <ToggleSwitch x:Name="playUnnamedNotes" Header="Play Unnamed Notes" HorizontalAlignment="Left" Margin="10,258,0,0" VerticalAlignment="Top" Width="73" Toggled="playUnnamedNotes_Toggled" Height="61"/>
+                <TextBlock x:Name="textBlock3_Copy" HorizontalAlignment="Left" Margin="17,213,0,0" TextWrapping="Wrap" Text="Text Size" VerticalAlignment="Top" Height="21"/>
+                <Slider x:Name="textSize" HorizontalAlignment="Left" Margin="85,203,0,0" VerticalAlignment="Top" Width="443"   TickFrequency="0.1" TickPlacement="Outside" Minimum=".2" Maximum="2.0" SmallChange="0.01" LargeChange="0.01" StepFrequency="0.01" ValueChanged="textSize_ValueChanged" Height="47"/>
+                <ToggleSwitch x:Name="oneTouchEdit" Header="One Touch Edit" HorizontalAlignment="Left" Margin="19,57,0,0" VerticalAlignment="Top" Toggled="oneTouchEdit_Toggled" Height="63"/>
+                <Button x:Name="recalibrateScale" Content="Recalibrate To Zoomed Size" HorizontalAlignment="Left" Margin="331,14,0,0" VerticalAlignment="Top" Width="206" Click="recalibrateScale_Click" Height="34"/>
+                <Button x:Name="Save" Content="Save" Click="Save_Click" Margin="17,14,0,0" Height="35" Width="66" VerticalAlignment="Top"/>
+                <Button x:Name="Delete" Content="Delete" Click="Delete_Click" Margin="180,14,0,0" Height="35" Width="65" VerticalAlignment="Top"/>
+                <Button x:Name="Reset" Content="Reset" Click="Reset_Click" Margin="254,14,0,0" Height="35" Width="64" VerticalAlignment="Top"/>
+                <Button x:Name="SaveAs" Content="Save As" Click="SaveAs_Click" Margin="96,14,0,0" Height="35" Width="70" VerticalAlignment="Top"/>
+                <CheckBox x:Name="dynamicTemperament" Content="Dynamic Temperament" HorizontalAlignment="Left" Margin="10,361,0,0" VerticalAlignment="Top" Height="34" Checked="dynamicTemperament_Checked" Unchecked="dynamicTemperament_Unchecked"/>
+            </Grid>
+        </Canvas>
+        <local:SettingsExpression x:Name="expressionAdvanced" Visibility="Collapsed"/>
+        <ContentDialog x:Name="saveAsDialog"
+           PrimaryButtonText="Save"
+           PrimaryButtonClick="saveAsDialog_PrimaryButtonClick"
+           SecondaryButtonText="Cancel" Width="500"
+           Opened="saveAsDialog_Opened" Margin="500,350">
+            <Grid Width="400" Height="100">
+                <TextBlock Text="Type the name of the keyboard below" Margin="2,25,-2,-25"/>
+                <TextBox x:Name="newName" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBox" Width="398" Margin="0,67,0,0"/>
+            </Grid>
+        </ContentDialog>
+    </StackPanel>
+</Page>

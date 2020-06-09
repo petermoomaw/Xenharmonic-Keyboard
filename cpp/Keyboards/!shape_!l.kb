@@ -1,0 +1,12 @@
+name Shape L
+temperament !meantone.tpmt
+screenPosition -307.507 -78.8326
+basis1 71.9117 -140.845
+basis2 135.821 107.627
+keyShape CUSTOM
+period 1 1
+generator 0 1
+textPos (0.326422, -0.326133) 
+verticies1 (0.881214, -0.445822) 
+verticies2 (0.510509, 0.267838) 
+verticies3 (0.163351, 0.011203) 

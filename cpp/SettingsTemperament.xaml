@@ -1,0 +1,71 @@
+﻿<Page
+    x:Class="SDKTemplate.SettingsTemperament"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SDKTemplate"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="442.75" Width="522.75">
+
+
+
+    <!-- <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" > -->
+    <Grid Background="#222" BorderThickness="1" BorderBrush="DarkGray" Margin="0,0,0,-24" Height="467" VerticalAlignment="Top" >
+        <ComboBox x:Name="name" HorizontalAlignment="Left" Margin="110,15,0,0" VerticalAlignment="Top" Width="401" SelectionChanged="temperamentSelectionChanged"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="9,16,0,0" TextWrapping="Wrap" Text="Temperament" VerticalAlignment="Top"/>
+        <Grid Margin="17,115,427,0" VerticalAlignment="Top" Height="125">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Grid.Row="0" TextWrapping="Wrap" Text="Enabled" VerticalAlignment="Center"/>
+            <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Grid.Row="1" TextWrapping="Wrap" Text="Ratio" VerticalAlignment="Center"/>
+
+        </Grid>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="217,388,0,0" TextWrapping="Wrap" Text="Tuning Note" VerticalAlignment="Top"/>
+        <TextBox x:Name="accidentals" HorizontalAlignment="Left" Margin="115,299,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="400" TextChanged="accidentals_TextChanged" Canvas.ZIndex="1"/>
+        <ToggleSwitch x:Name="justIntonation" Header="Just Intonation" HorizontalAlignment="Left" Margin="15,392,0,0" VerticalAlignment="Top" Width="117" Height="62" Toggled="justIntonation_Toggled"/>
+        <local:EditFloat x:Name="periodCents" HorizontalAlignment="Left" Margin="9,176,0,0" VerticalAlignment="Top" Width="83" Height="26"/>
+        <local:EditFloat x:Name="generatorCents" HorizontalAlignment="Left" Margin="9,208,0,0" VerticalAlignment="Top" Width="83" Height="29"/>
+        <local:EditFloat x:Name="anchorFreq" HorizontalAlignment="Left" Margin="407,383,0,0" VerticalAlignment="Top" Width="68" Height="32"/>
+        <ScrollViewer x:Name="scrollView" HorizontalAlignment="Left" Height="141" Margin="112,113,0,0" VerticalAlignment="Top" Width="410" HorizontalScrollBarVisibility="Auto"
+                      VerticalScrollBarVisibility="Disabled" HorizontalScrollMode="Enabled" VerticalScrollMode="Disabled" ZoomMode="Disabled" ManipulationMode="All">
+            <StackPanel x:Name="ratioGrid" Orientation="Horizontal" VerticalAlignment="Top" Background="#222" BorderThickness="2" BorderBrush="DimGray" Margin="0" UseLayoutRounding="True" Height="127">
+                <local:TemperamentDataItem/>
+                <local:TemperamentDataItem/>
+                <local:TemperamentDataItem/>
+                <local:TemperamentDataItem/>
+                <StackPanel VerticalAlignment="Stretch">
+                    <Button x:Name="addRatioBtn" Content="Add Ratio" HorizontalAlignment="Stretch" Margin="10,40,10,0" Click="addRatioBtn_Click"/>
+                    <Button x:Name="deleteRatioBtn" Content="Delete Last" HorizontalAlignment="Stretch" Margin="10,10,10,10" Click="deleteRatioBtn_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="9,268,0,0" TextWrapping="Wrap" Text="Note Names" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock9" HorizontalAlignment="Left" Margin="22,304,0,0" TextWrapping="Wrap" Text="Accidentals" VerticalAlignment="Top"/>
+        <TextBox x:Name="noteNames" HorizontalAlignment="Left" Margin="115,263,0,0" VerticalAlignment="Top" Width="399" TextChanged="notenames_TextChanged"/>
+        <TextBlock x:Name="cents" HorizontalAlignment="Left" Margin="94,183,0,0" TextWrapping="Wrap" Text="¢" VerticalAlignment="Top"/>
+        <TextBlock x:Name="cents2" HorizontalAlignment="Left" Margin="94,211,0,0" TextWrapping="Wrap" Text="¢" VerticalAlignment="Top"/>
+        <TextBox x:Name="tuningNote" HorizontalAlignment="Left" Margin="314,381,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" TextChanged="tuningNote_TextChanged"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="391,387,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" Margin="481,388,0,0" TextWrapping="Wrap" Text="Hz" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" Margin="267,425,0,0" TextWrapping="Wrap" Text="Root" VerticalAlignment="Top" RenderTransformOrigin="1.269,0.767"/>
+        <TextBox x:Name="rootNote" HorizontalAlignment="Left" Margin="314,420,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" TextChanged="rootNote_TextChanged"/>
+        <Button x:Name="Save" Content="Save" Click="Save_Click" Margin="17,59.5,0,349.5" Height="35" Width="66"/>
+        <Button x:Name="Delete" Content="Delete" Click="Delete_Click" Margin="180,59.5,0,349.5" Height="35" Width="65"/>
+        <Button x:Name="Reset" Content="Reset" Click="Reset_Click" Margin="258,59.5,0,349.5" Height="35" Width="64"/>
+        <Button x:Name="SaveAs" Content="Save As" Click="SaveAs_Click" Margin="96,59.5,0,349.5" Height="35" Width="70"/>
+        <ContentDialog x:Name="saveAsDialog"
+        	PrimaryButtonText="Save"
+        	PrimaryButtonClick="saveAsDialog_PrimaryButtonClick"
+        	SecondaryButtonText="Cancel" Width="500"
+        	Opened="saveAsDialog_Opened" Margin="29,453,-6,-174" Height="188" FontFamily="Segoe UI">
+            <Grid Width="400" Height="100">
+                <TextBlock Text="Type the name of the temperament below" Margin="2,25,-2,-25"/>
+                <TextBox x:Name="newName" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBox" Width="398" Margin="0,67,0,0"/>
+            </Grid>
+        </ContentDialog>
+    </Grid>
+</Page>

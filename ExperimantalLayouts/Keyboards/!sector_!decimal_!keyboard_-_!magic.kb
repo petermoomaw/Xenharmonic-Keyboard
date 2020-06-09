@@ -1,0 +1,14 @@
+name Sector Decimal Keyboard - Magic
+temperament !magic_(60-!t!e!t).tpmt
+screenPosition -1121.08 1226.1
+basis1 0.0897979 135.39
+basis2 -89.5677 -121.79
+keyShape RECTANGLE
+textSize 0.9
+period -9 -10
+generator -2 -3
+duplicateKeys -5 -1
+textPos (-0.0490433, -0.01038) 
+verticies1 (0.5, -0.423742) 
+verticies2 (0.5, 0.423742) 
+verticies3 

@@ -1,0 +1,13 @@
+name Isotemperic 7x12 (Wilson)
+temperament 12-!t!e!tx2.tpmt
+screenPosition -828.013 -978.393
+basis1 0.165606 295.557
+basis2 -87.5347 -802.53
+keyShape RECTANGLE
+playUnamedNotes true
+period -1 0
+generator -2 -1
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

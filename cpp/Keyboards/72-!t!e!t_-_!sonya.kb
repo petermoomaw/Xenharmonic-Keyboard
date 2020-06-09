@@ -1,0 +1,17 @@
+name 72-TET - Sonya
+temperament 72-!t!e!t_-_!sonya.tpmt
+origin -0.790469 0.159572
+basis1 -0.0932673 97.8099
+basis2 -127.825 0.084135
+keyShape RECTANGLE
+textSize 0.9
+showRatio false
+showCents false
+showDelta false
+duplicateRatios false
+period -1 0
+generator 0 -1
+textPos (-0.0490433, -0.01038) 
+verticies1 (0.5, -0.423742) 
+verticies2 (0.5, 0.423742) 
+verticies3 

@@ -1,0 +1,11 @@
+name Tetracot (Bunya)
+enabled 1 1 1 1
+ratio 2:1 3:1 5:1 7:1
+period 1 1 1 -1
+generator 0 4 9 26
+gen-cents 175.659
+per-cents 1200
+notes F C G D A E B
+accidentals /|\ /| |) # 2
+tuningNote A 440
+rootNote C

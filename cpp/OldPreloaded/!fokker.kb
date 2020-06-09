@@ -1,0 +1,12 @@
+name Fokker
+temperament !meantone.tpmt
+origin -0.634681 0.217614
+basis1 1.67296 -178.207
+basis2 -70.1051 88.9358
+keyShape RECTANGLE
+period -5 -12
+generator -3 -7
+textPos (0, 0) 
+verticies1 
+verticies2 
+verticies3 

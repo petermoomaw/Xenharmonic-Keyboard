@@ -1,0 +1,11 @@
+name 12-TETx2
+enabled 1 1 1 1 1 1
+ratio 2:1 3:2 5:4 2:1 3:2 5:4
+period 0 0 0 12 7 4
+generator 12 7 4 0 0 0
+gen-cents 100
+per-cents 100
+notes F C G D A E B
+accidentals # 2
+tuningNote A 440
+rootNote C

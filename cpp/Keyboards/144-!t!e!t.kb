@@ -1,0 +1,16 @@
+name 144-TET
+temperament 144-!t!e!t.tpmt
+screenPosition -1115.77 39.8217
+basis1 -0.062093 68.8104
+basis2 -85.0999 0.05919
+keyShape RECTANGLE
+showRatio false
+showCents false
+showDelta false
+duplicateRatios false
+period -1 0
+generator 0 -1
+textPos (-0.0490433, -0.01038) 
+verticies1 (0.5, -0.423742) 
+verticies2 (0.5, 0.423742) 
+verticies3 

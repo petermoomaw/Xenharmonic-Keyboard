@@ -1,0 +1,14 @@
+name Sector Decimal Keyboard - 36 TET
+temperament 36-!t!e!t_(8%3A7_generator).tpmt
+screenPosition -967.288 61.3851
+basis1 -0.0613252 136.219
+basis2 -89.9795 -122.636
+keyShape RECTANGLE
+textSize 0.9
+period -9 -10
+generator -2 -2
+duplicateKeys 4 1
+textPos (-0.0490433, -0.01038) 
+verticies1 (0.5, -0.423742) 
+verticies2 (0.5, 0.423742) 
+verticies3 

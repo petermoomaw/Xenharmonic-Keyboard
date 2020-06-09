@@ -1,0 +1,16 @@
+name 36-TET - Sonya
+origin -0.790469 0.159572
+basis1 -0.0932673 97.8099
+basis2 -127.825 0.084135
+keyShape RECTANGLE
+showRatio false
+showCents false
+showDelta false
+duplicateRatios false
+period -1 0
+generator 0 -1
+textPos (-0.0490433, -0.01038) 
+verticies1 (0.5, -0.498947) 
+verticies2 (0.5, 0.498947) 
+verticies3 
+temperament 36-!t!e!t_-_!sonya.tpmt

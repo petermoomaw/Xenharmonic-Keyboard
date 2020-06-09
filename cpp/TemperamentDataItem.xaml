@@ -1,0 +1,20 @@
+﻿<UserControl
+    x:Class="SDKTemplate.TemperamentDataItem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SDKTemplate"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="124" Width="65" UseLayoutRounding="True">
+    <StackPanel x:Name="DragLayer" Background="Black" UseLayoutRounding="True">
+        <Canvas x:Name="DragTab" Height="32" ManipulationMode="All">
+            <Rectangle Width="65" Height ="32" Fill="#333"/>
+            <CheckBox x:Name="enabled" Width="20"  MinWidth="1" MinHeight ="1"  Canvas.Left="36" VerticalAlignment="Center" Click="enabled_Click" ManipulationMode="None"/>
+        </Canvas>
+        <local:TemperamentEditRatio  x:Name="ratio" Width="65"  />
+        <local:TemperamentEditInteger x:Name="period" Width="65" />
+        <local:TemperamentEditInteger x:Name="generator" Width="65"  />
+    </StackPanel>
+
+
+</UserControl>

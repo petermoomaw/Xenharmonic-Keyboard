@@ -1,0 +1,12 @@
+name Hanson B - Rectangle
+temperament !kleismic.tpmt
+screenPosition -1053.4 183.52
+basis1 -0.549743 -174.02
+basis2 -66.3912 -127.312
+keyShape RECTANGLE
+period 11 -15
+generator 3 -4
+textPos (0.0567762, 0.263824) 
+verticies1 (0.5, -0.134025) 
+verticies2 (0.5, 0.134025) 
+verticies3 

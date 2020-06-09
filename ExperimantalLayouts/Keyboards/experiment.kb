@@ -1,0 +1,13 @@
+name experiment
+temperament experiment.tpmt
+screenPosition -1043.45 163.969
+basis1 0.280495 145.197
+basis2 -96.221 -130.49
+keyShape RECTANGLE
+textSize 0.9
+period -8 -9
+generator -1 -1
+textPos (-0.0490433, -0.01038) 
+verticies1 (0.5, -0.423742) 
+verticies2 (0.5, 0.423742) 
+verticies3 

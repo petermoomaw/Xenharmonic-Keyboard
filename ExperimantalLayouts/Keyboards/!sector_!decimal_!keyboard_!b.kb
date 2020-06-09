@@ -1,0 +1,13 @@
+name Sector Decimal Keyboard B
+temperament !miracle_(72-!t!e!t).tpmt
+screenPosition -1308.53 453.262
+basis1 25.1899 136.778
+basis2 -113.159 -123.149
+keyShape VORONOI
+textSize 0.9
+period -1 -1
+generator -9 -10
+textPos (-0.0490433, -0.01038) 
+verticies1 (0.5, -0.423742) 
+verticies2 (0.5, 0.423742) 
+verticies3 

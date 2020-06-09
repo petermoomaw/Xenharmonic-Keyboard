@@ -1,0 +1,12 @@
+name Rank 3 - Magic
+temperament !magic.tpmt
+screenPosition -322.447 230.976
+basis1 0.603509 104.68
+basis2 -93.9068 142.245
+keyShape RECTANGLE
+period 4 -3
+generator 1 -1
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 

@@ -1,0 +1,12 @@
+name Hanson A - Rectangle
+temperament !kleismic.tpmt
+origin -0.55828 0.25036
+basis1 0.848991 -221.53
+basis2 -69.2683 -141.18
+keyShape RECTANGLE
+period 7 -11
+generator 2 -3
+textPos (0.379259, 0.0105085) 
+verticies1 (0.5, -0.181575) 
+verticies2 (0.5, 0.181575) 
+verticies3 

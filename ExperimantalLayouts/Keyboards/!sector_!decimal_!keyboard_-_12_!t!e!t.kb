@@ -1,0 +1,14 @@
+name Sector Decimal Keyboard - 12 TET
+temperament !meantone_(12-!t!e!t).tpmt
+screenPosition -759.91 -708.932
+basis1 -0.0613252 136.219
+basis2 -89.9795 -122.636
+keyShape RECTANGLE
+textSize 0.9
+period -9 -10
+generator -6 -6
+duplicateKeys 4 1
+textPos (-0.0490433, -0.01038) 
+verticies1 (0.5, -0.423742) 
+verticies2 (0.5, 0.423742) 
+verticies3 

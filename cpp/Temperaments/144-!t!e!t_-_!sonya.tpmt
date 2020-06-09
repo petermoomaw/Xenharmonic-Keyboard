@@ -1,0 +1,8 @@
+name 144-TET - Sonya
+enabled 1 1 1 1 1 1
+ratio 1:1 2:1 3:2 5:4 7:6 11:8 4131:4096 736:729
+period -12 0 0 -2 -4 6 1 3
+generator 1 12 7 4 3 5 0 0
+gen-cents 100
+per-cents 8.33333
+accidentals /|\  /|~ |) |~ /|  ~|(  # 2

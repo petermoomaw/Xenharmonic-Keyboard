@@ -1,0 +1,13 @@
+name P2.3 (Kleismic B)
+temperament !kleismic.tpmt
+screenPosition -946.116 -1287.36
+basis1 0.212866 251.609
+basis2 -100.044 73.7041
+keyShape RECTANGLE
+period 2 -7
+generator 1 -2
+duplicateKeys 3 -1
+textPos (0, 0) 
+verticies1 (0, 1) 
+verticies2 (0, 1) 
+verticies3 
